@@ -1,10 +1,10 @@
 // 1.
 
-myArrowFunction = (num1, num2) => {
+arrowMyFunction = (num1, num2) => {
   return num1 + num2;
 };
 
-console.log(myArrowFunction(5, 10));
+console.log(arrowMyFunction(5, 11));
 
 // 2.
 
