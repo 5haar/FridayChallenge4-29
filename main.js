@@ -17,8 +17,7 @@ console.log(arrowAdd100(200));
 countLetters = (statement, letter) => {
   for (let i = 0; i <= statement.length; i++) {
     let counter = 0;
-    arr = statement.split("");
-    if (arr[i] == letter) {
+    if (statement[i] == letter) {
       counter = counter + 1;
     }
     return counter;
